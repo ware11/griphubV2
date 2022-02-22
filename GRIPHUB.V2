@@ -174,7 +174,7 @@ TextButton_2.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
 TextButton_2.TextStrokeTransparency = 0.000
 TextButton_2.TextWrapped = true
 TextButton_2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ware11/ware11/main/sync"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ware11/sync/main/sync2"))();
 end)
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
