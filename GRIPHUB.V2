@@ -33,6 +33,7 @@ local TextLabel_10 = Instance.new("TextLabel")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndex = 30
 
 Frame.Parent = ScreenGui
 Frame.Active = true
@@ -338,7 +339,7 @@ TextLabel_7.BackgroundTransparency = 1.000
 TextLabel_7.Position = UDim2.new(-0.119999997, 0, -0.0649350658, 0)
 TextLabel_7.Size = UDim2.new(0, 124, 0, 100)
 TextLabel_7.Font = Enum.Font.GothamBold
-TextLabel_7.Text = "CREDIT AND INFO:"
+TextLabel_7.Text = "Games that works with"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.TextSize = 14.000
 TextLabel_7.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
@@ -351,7 +352,7 @@ TextLabel_8.BackgroundTransparency = 1.000
 TextLabel_8.Position = UDim2.new(-0.119999997, 0, 0.129870117, 0)
 TextLabel_8.Size = UDim2.new(0, 124, 0, 100)
 TextLabel_8.Font = Enum.Font.GothamBold
-TextLabel_8.Text = "CREDITS TO: JACKOS_MATE"
+TextLabel_8.Text = "DOLLHOUSE ROLEPLAY, SCHOOL SIMULATOR AND FREE RADIO/BOOMBOX GAMES"
 TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_8.TextSize = 14.000
 TextLabel_8.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
@@ -364,7 +365,7 @@ TextLabel_9.BackgroundTransparency = 1.000
 TextLabel_9.Position = UDim2.new(0, 0, 0.227272734, 0)
 TextLabel_9.Size = UDim2.new(0, 101, 0, 180)
 TextLabel_9.Font = Enum.Font.GothamBold
-TextLabel_9.Text = "FOR CREATING THE GUI, SCRIPTS AND GRIPS"
+TextLabel_9.Text = "DOLLHOUSE ROLEPLAY, SCHOOL SIMULATOR AND FREE RADIO/BOOMBOX GAMES"
 TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_9.TextSize = 14.000
 TextLabel_9.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
@@ -545,3 +546,10 @@ plr.Chatted:connect(function(message)
 	end
 end)
 
+local oof = game.Players.LocalPlayer.Backpack.Chalk:FindFirstChild("LocalScript")
+
+oof.Name = "DontTouch"
+wait(0.1)
+game.Players.LocalPlayer.Backpack.Chalk.LocalScript:Destroy()
+game.Players.LocalPlayer.Backpack.Boombox.LocalScript:Destroy()
+game.Players.LocalPlayer.Backpack.Push.LocalScript:Destroy()
