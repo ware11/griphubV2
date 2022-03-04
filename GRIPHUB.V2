@@ -33,7 +33,6 @@ local TextLabel_10 = Instance.new("TextLabel")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
-ScreenGui.ZIndex = 30
 
 Frame.Parent = ScreenGui
 Frame.Active = true
@@ -545,11 +544,3 @@ plr.Chatted:connect(function(message)
 		end	
 	end
 end)
-
-local oof = game.Players.LocalPlayer.Backpack.Chalk:FindFirstChild("LocalScript")
-
-oof.Name = "DontTouch"
-wait(0.1)
-game.Players.LocalPlayer.Backpack.Chalk.LocalScript:Destroy()
-game.Players.LocalPlayer.Backpack.Boombox.LocalScript:Destroy()
-game.Players.LocalPlayer.Backpack.Push.LocalScript:Destroy()
