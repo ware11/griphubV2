@@ -57,7 +57,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(-0.0969101116, 0, -0.272727251, 0)
 TextLabel.Size = UDim2.new(0, 373, 0, 101)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "VERSION: V:1"
+TextLabel.Text = "VERSION: V:1.5(2)"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 38.000
 TextLabel.TextStrokeColor3 = Color3.fromRGB(42, 42, 42)
@@ -320,7 +320,7 @@ TextButton_7.MouseButton1Down:connect(function()
 	h = game.Players.LocalPlayer.Character.Humanoid
 	tracks = h:GetPlayingAnimationTracks()
 	for _,x in pairs(tracks)
-	do x:Stop()
+	do x:Play()
 	end	
 
 end)
@@ -338,7 +338,7 @@ TextLabel_7.BackgroundTransparency = 1.000
 TextLabel_7.Position = UDim2.new(-0.119999997, 0, -0.0649350658, 0)
 TextLabel_7.Size = UDim2.new(0, 124, 0, 100)
 TextLabel_7.Font = Enum.Font.GothamBold
-TextLabel_7.Text = "Games that works with"
+TextLabel_7.Text = "Only Works in DOLLHOUSE ROLEPLAY"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.TextSize = 14.000
 TextLabel_7.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
@@ -351,7 +351,7 @@ TextLabel_8.BackgroundTransparency = 1.000
 TextLabel_8.Position = UDim2.new(-0.119999997, 0, 0.129870117, 0)
 TextLabel_8.Size = UDim2.new(0, 124, 0, 100)
 TextLabel_8.Font = Enum.Font.GothamBold
-TextLabel_8.Text = "DOLLHOUSE ROLEPLAY, SCHOOL SIMULATOR AND FREE RADIO/BOOMBOX GAMES"
+TextLabel_8.Text = "CREDITS: 1010Mane"
 TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_8.TextSize = 14.000
 TextLabel_8.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
@@ -364,7 +364,7 @@ TextLabel_9.BackgroundTransparency = 1.000
 TextLabel_9.Position = UDim2.new(0, 0, 0.227272734, 0)
 TextLabel_9.Size = UDim2.new(0, 101, 0, 180)
 TextLabel_9.Font = Enum.Font.GothamBold
-TextLabel_9.Text = "DOLLHOUSE ROLEPLAY, SCHOOL SIMULATOR AND FREE RADIO/BOOMBOX GAMES"
+TextLabel_9.Text = "letoka is W"
 TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_9.TextSize = 14.000
 TextLabel_9.TextStrokeColor3 = Color3.fromRGB(44, 44, 44)
